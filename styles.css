@@ -541,29 +541,22 @@ body::before {
   object-fit: cover;
 }
 
-.gallery-copy p {
-  color: var(--muted);
-  line-height: 1.7;
-}
-
 .gallery-copy h2 {
   font-family: "Playfair Display", serif;
   line-height: 1.02;
-  margin: 12px 0 0;
+  margin: 0;
   font-size: clamp(1.8rem, 3vw, 2.6rem);
 }
 
 .gallery-grid {
   margin-top: 22px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 18px;
+  display: block;
 }
 
 .gallery-item {
   border-radius: 24px;
   overflow: hidden;
-  min-height: 280px;
+  min-height: 420px;
   background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(46, 125, 90, 0.12);
   box-shadow: 0 18px 38px rgba(35, 57, 42, 0.14);

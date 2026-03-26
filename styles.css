@@ -121,6 +121,14 @@ body::before {
   font-weight: 700;
 }
 
+.topbar-contacts {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
 .hero-grid {
   display: grid;
   grid-template-columns: 1.4fr 0.85fr;
@@ -549,9 +557,15 @@ body::before {
     align-items: flex-start;
   }
 
+  .topbar-contacts,
   .button,
   .topbar-call {
     width: 100%;
+  }
+
+  .topbar-contacts {
+    align-items: flex-start;
+    gap: 8px;
   }
 
   .cta-row {
